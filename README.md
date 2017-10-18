@@ -57,7 +57,7 @@ The magic here is that, most of the time, you won't even have to reload the brow
 
 #### Discogs Token
 
-Create a [Discogs Account](https://www.discogs.com/users/create) if you don't have one already. Then go to the [developper panel](https://www.discogs.com/users/create) and click on the *Generate new token* button. Copy-paste the string that appears in a file; you will need it later.
+Create a [Discogs Account](https://www.discogs.com/users/create) if you don't have one already. Then go to the [developer panel](https://www.discogs.com/settings/developers) and click on the *Generate new token* button. Copy-paste the string that appears in a file; you will need it later.
 
 #### API wrapper
 
