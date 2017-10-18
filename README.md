@@ -93,7 +93,7 @@ First, we need to install bulma; let's do `npm install bulma`.
 Then, we want to import it. In the file `src/main.js`, please include towards the top of the file the following line:
 
 ```
-// src/maine.js
+// src/main.js
 import Vue from 'vue'
 import App from './App'
 import router from './router'
