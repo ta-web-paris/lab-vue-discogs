@@ -13,7 +13,6 @@ The final product should be an applicaton that allows you to search for an artis
 The result of the search will be a collection of artists that match your input.
 Each result should provide a link to a specific page for the artist.
 On such a page you should be able to see the list of albums and, for each album, the list of tracks.
-You should be able to listen to the 30s preview of a track.
 
 This is very reminiscent of the Spotify exercise of Module 2.
 We will actually be reimplementing a lot of those functionalities but this time with the [Discogs API](https://www.discogs.com/developers/) and Vue.js.
@@ -44,8 +43,7 @@ This will prompt you a series of questions. You should give the following answer
 ? Author - (use the default answer)
 ? Vue build - Standalone
 ? Install vue-router? - Yes
-? Use ESLint to lint your code? - Yes
-? Pick an ESLint preset - No
+? Use ESLint to lint your code? - No
 ? Setup unit tests with Karma + Mocha? - No
 ? Setup e2e tests with Nightwatch? - No
 ```
