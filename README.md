@@ -24,34 +24,22 @@ We will actually be reimplementing a lot of those functionalities but this time 
 Install the vue-cli tool globally if you haven't already:
 
 ```bash
-$ npm install -g vue-cli
+$ npm install -g @vue/cli
 ```
 
 Then, generate a new project by typing:
 
 ```bash
-$ vue init webpack .
+$ vue create lab-vue-discogs
 ```
 
-**Don't forget the dot at the end.**
+Make sure to select _Manually select features_ and then to press _Space_ to select _Router_ and follow up with the _Enter_ key. The rest of the answers doesn't matter.
 
-This will prompt you a series of questions. You should give the following answers:
-```
-? Generate project in current directory? - Yes
-? Project name - lab-vue-discogs
-? Project description Spotify - Vue exercise for Ironhack
-? Author - (use the default answer)
-? Vue build - Standalone
-? Install vue-router? - Yes
-? Use ESLint to lint your code? - No
-? Setup unit tests with Karma + Mocha? - No
-? Setup e2e tests with Nightwatch? - No
-```
+![](step1.png)
 
-Now we need to install the dependencies with `npm install`.
+![](step2.png)
 
-To start a development server, just type `npm run dev` in the command line.
-The magic here is that, most of the time, you won't even have to reload the browser page when you make a change.
+Once it's finished it will tell you what to do, you will have to get into the folder and run `npm run serve`. The browser window will open alone.
 
 ### The API
 
@@ -95,9 +83,9 @@ Then, we want to import it. In the file `src/main.js`, please include towards th
 ```
 // src/main.js
 import Vue from 'vue'
+import 'bulma/css/bulma.css' // this is the line you need to add
 import App from './App'
 import router from './router'
-import "bulma/css/bulma.css" // this is the line you need to add
 
 Vue.config.productionTip = false
 
